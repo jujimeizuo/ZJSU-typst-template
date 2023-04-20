@@ -14,7 +14,7 @@
     align: horizon,
     stroke: none,
     [],
-    [#image("./images/zjgsu_name.png", width: 100%, height: 9%)],
+    [#image("./images/zjgsu_name.png", width: 90%, height: 9%)],
   )
 
   #table(
@@ -25,7 +25,7 @@
 
     text(
       font: songti,
-      size: 36pt,
+      size: font_size.xiaoyi,
     )[毕业论文（设计）正文],
   )
 
@@ -45,21 +45,21 @@
     rect(width: 100%, inset: 2pt, 
         stroke: none,
         text(
-        font: kaiti,
-        size: font_size.xiaoer,
+        font: songti,
+        size: font_size.sanhao,
         weight: "bold",
         overhang: false,
-        "题 目:"
+        "题 目："
       )),
     rect(
-      width: 100%,
+      width: 90%,
       inset: 2pt,
       stroke: (
         bottom: 1pt + black
       ),
       text(
-        font: kaiti,
-        size: font_size.xiaoer,
+        font: songti,
+        size: font_size.sanhao,
         weight: "bold",
         bottom-edge: "descender"
       )[
@@ -72,14 +72,14 @@
 
   #let info_value(body) = {
     rect(
-      width: 100%,
+      width: 80%,
       inset: 2pt,
       stroke: (
         bottom: 1pt + black
       ),
       text(
         font: songti,
-        size: font_size.xiaoer,
+        size: font_size.sanhao,
         weight: "medium",
         bottom-edge: "descender"
       )[
@@ -93,7 +93,7 @@
       stroke: none,
       text(
       font: heiti,
-      size: font_size.xiaoer,
+      size: font_size.sanhao,
       weight: "bold",
       overhang: false,
       body

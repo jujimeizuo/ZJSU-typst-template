@@ -15,57 +15,52 @@
     #set align(center)
     #set text(size: 10pt, baseline: -3pt)
     #counter(page).display(
-      "I",
+      "- 1 -",
     )
 ] )
 
 #pagebreak()
-// 从摘要开始算页数
 
 // 中文摘要页
-  #v(2em)
+  #v(1.5em)
   #align(center)[
     #text(font: heiti, size: font_size.sanhao)[#zh_title]
   ]
-
-  #v(2em)
-  #heading(level: 1)[摘要]
-  #v(2em)
+  #v(1.5em)
 
   #par(
-    justify: false,
+    justify: true,
     leading: 1.5em, 
     first-line-indent: 2em)[#text(font: songti, size: font_size.xiaosi)[#abstract_zh]]
 
-  #v(5pt)
+  #v(1.5em)
 
   #par(first-line-indent: 0em)[
     #text(weight: "bold", font: songti, size: font_size.xiaosi)[
-      关键词： ]
-    #text(font: songti, size: font_size.xiaosi)[#keywords_zh.join("；") ]
+      关键词：]
+    #text(font: songti, size: font_size.xiaosi)[#keywords_zh.join("、") ]
     ]
 
 #pagebreak() 
 
 //英文摘要页
-  #v(2em)
+  #v(1.5em)
   #align(center)[
-    #text(font: heiti, size: font_size.sanhao)[#en_title]
+    #text(font: Arial, size: font_size.sanhao)[#en_title]
   ]
 
-  #v(2em)
-  #heading(level: 1)[ABSTRACT]
-  #v(2em)
+  #v(1.5em)
 
-  #par(justify: false, 
+  #par(justify: true, 
        leading: 1.5em, 
-       first-line-indent: 2em)[#text(font: songti, size: font_size.xiaosi)[#abstract_en]]
-  #v(5pt)
+       first-line-indent: 2em)[#text(font: Arial, size: font_size.xiaosi)[#abstract_en]]
+  
+  #v(1.5em)
 
   
   #par(first-line-indent: 0em)[
-    #text(font: heiti, size: font_size.xiaosi, weight: "bold")[
+    #text(font: Arial, size: font_size.xiaosi, weight: "bold")[
       Keywords: ]
-    #text(font: heiti, size: font_size.xiaosi)[#keywords_en.join("; ") ]
+    #text(font: Arial, size: font_size.xiaosi)[#keywords_en.join("、") ]
     ]
 

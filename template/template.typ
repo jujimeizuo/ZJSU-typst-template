@@ -28,7 +28,7 @@
       grid(
         columns: (1fr, 1fr),
         align(left + bottom)[
-          #image("zjgsu_page_logo.png", width: 50%)
+          #image("images/zjgsu_page_logo.png", width: 50%)
         ],
         align(right)[
           毕业论文：正文

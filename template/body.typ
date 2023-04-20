@@ -2,7 +2,7 @@
 #import "utils.typ": *
 
 #pagebreak()
-#counter(page).update(1)
+// #counter(page).update(1)
 
 // 章节计数器，记录公式层级
 #let counter_chapter   = counter("chapter")
