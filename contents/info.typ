@@ -1,5 +1,7 @@
-// 题目
-#let title = "浙江工商大学毕业设计 Typst 模板"
+// 中文题目
+#let zh_title = "浙江工商大学毕业设计 Typst 模板"
+// 英文题目
+#let en_title = "ZJGSU graduating thesis Typst Template"
 // 学院
 #let college = "计算机科学与技术学院"
 // 专业

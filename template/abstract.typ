@@ -25,7 +25,7 @@
 // 中文摘要页
   #v(2em)
   #align(center)[
-    #text(font: heiti, size: font_size.yihao)[#title]
+    #text(font: heiti, size: font_size.sanhao)[#zh_title]
   ]
 
   #v(2em)
@@ -48,6 +48,11 @@
 #pagebreak() 
 
 //英文摘要页
+  #v(2em)
+  #align(center)[
+    #text(font: heiti, size: font_size.sanhao)[#en_title]
+  ]
+
   #v(2em)
   #heading(level: 1)[ABSTRACT]
   #v(2em)

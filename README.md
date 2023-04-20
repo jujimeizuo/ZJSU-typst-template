@@ -14,7 +14,7 @@ typst相较Latex具有较为简洁的[语法](https://typst.app/docs/reference/s
 #### 线上编辑
 
 typst 也提供了线上编辑器（类似overleaf），查看本模板：
-https://typst.app/project/rqTPs502DAhLTQctaUmbtn
+https://typst.app/project/pLKexPD4J5ADToO-HQEWz2
 
 （ps：浏览器可能没宋体，字体可能不对，请忽略字体）
 

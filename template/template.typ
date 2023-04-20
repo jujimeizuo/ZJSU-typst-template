@@ -24,29 +24,34 @@
 
   set page(
     header: {
-      set align(left)
-      [#image("./images/zjgsu_page_logo.png", width: 30%)]
       set text(font: songti, 10pt, baseline: 8pt, spacing: 3pt)
-      set align(right)
-      [毕业论文：正文]
+      grid(
+        columns: (1fr, 1fr),
+        align(left + bottom)[
+          #image("zjgsu_page_logo.png", width: 50%)
+        ],
+        align(right)[
+          毕业论文：正文
+        ]
+      )
       line(length: 100%, stroke: 0.1pt)
     }
   )
 
-  // 目录
-  include "toc.typ"
-  
   // 摘要
   include "abstract.typ"
+
+  // 目录
+  include "toc.typ"
 
   // 正文
   include "body.typ"
 
-  // 致谢
-  include "acknowledgement.typ"
-
   // 参考文献
   include "reference.typ"
+
+  // 致谢
+  include "acknowledgement.typ"
 
   //附录
   include "appendix.typ"

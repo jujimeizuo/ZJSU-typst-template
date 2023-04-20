@@ -2,6 +2,7 @@
 #let heiti = ("Times New Roman", "Heiti SC", "Heiti TC")
 #let songti = ("Times New Roman", "Songti SC")
 #let kaiti = ("Times New Roman", "Kaiti SC")
+#let Arial = ("Arial")
 
 // 字号设置
 #let font_size = (

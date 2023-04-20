@@ -60,12 +60,12 @@
       text(
         font: kaiti,
         size: font_size.xiaoer,
-        weight: "medium",
+        weight: "bold",
         bottom-edge: "descender"
       )[
-        #title
+        #zh_title
       ]
-    ) 
+    )
   ) 
 
   #v(70pt)
