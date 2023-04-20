@@ -11,9 +11,8 @@
 
 
 // 目录
-#v(1em)
 #align(center)[
-  #text(font: songti, size: font_size.xiaosi, "正文目录")
+  #text(font: songti, size: font_size.sanhao, "正文目录")
 ]
 
 #parbreak();

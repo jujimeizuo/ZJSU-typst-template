@@ -13,6 +13,7 @@
     sanhao: 16pt,
     xiaosan: 15pt,
     sihao: 14pt,
+    shisanpt: 13pt,
     xiaosi: 12pt,
     wuhao: 10.5pt,
     xiaowu: 9pt,

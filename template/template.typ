@@ -15,7 +15,7 @@
               #set align(center)
               #set text(size: 10pt, baseline: -3pt)
               #counter(page).display(
-              "1")
+              "- 1 -")
             ]
   )
 

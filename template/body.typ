@@ -92,30 +92,37 @@
 #show heading: it =>  {
   if it.level == 1 {
     set align(center)
-    set text(font:heiti, size: font_size.xiaoer, weight: "regular")
+    set text(font:heiti, size: font_size.sanhao, weight: "bold")
     counter_chapter.step()
     counter_equation.update(())
     counter_image.update(())
     counter_table.update(())
     it
+    v(24pt)
     par(leading: 1.5em)[#text(size:0.0em)[#h(0.0em)]]
   } else if it.level == 2 {
-    set text(font:heiti, size: font_size.sihao, weight: "regular")
+    set text(font:heiti, size: font_size.sihao, weight: "bold")
     it
+    v(12pt)
     par(leading: 1.5em)[#text(size:0.0em)[#h(0.0em)]]
   } else if it.level == 3 {
-    set text(font:heiti, size: font_size.xiaosi, weight: "regular")
+    set text(font:heiti, size: font_size.shisanpt, weight: "thin")
     it
+    v(12pt)
+    par(leading: 1.5em)[#text(size:0.0em)[#h(0.0em)]]
+  } else if it.level == 4 {
+    set text(font:heiti, size: font_size.xiaosi, weight: "thin")
+    it
+    v(12pt)
     par(leading: 1.5em)[#text(size:0.0em)[#h(0.0em)]]
   }
 }
 
 // 设置正文格式
 #set text(font: songti, size: font_size.xiaosi)
-#set par(justify: false, leading: 1.5em, first-line-indent: 2em)
+#set par(justify: true, leading: 1.5em, first-line-indent: 2em)
 #show par: it => {
-  it 
-  v(5pt)
+  it
 }
 
 #include "../contents/context.typ"  

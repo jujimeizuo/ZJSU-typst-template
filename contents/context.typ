@@ -30,17 +30,21 @@ typst 是最新最热的标记文本语言，定位与 LaTeX 类似，具有极�
 类似 Markdown 里用 \# 表示标题，typst 里用 = 表示标题，一级标题用一个 =，二级标题用两个 =，以此类推。
 
 
-间距、字体等我都排版好了。
+间距、字体等我都排版好了。但是要注意下每个段落后需要加12pt！！！
+
+#pagebreak()
 
 = 模版简介
 
 == 模板概述
 
-本项目是使用 Typst 语言重新编写而成，旨在帮助浙江工商大学大学的本科生更方便地撰写自己的毕业论文。该模板基于 Typst 系统创建，相较于 Latex@tex1989，Typst 是一种语法更加简易的排版软件，可以用于制作高质量的科技论文和出版物。该项目目前已经包括论文的封面、摘要、正文、参考文献等，用户可以根据自己的需要进行修改和定制。
+本项目是使用 Typst 语言重新编写而成，旨在帮助浙江工商大学大学的本科生更方便地撰写自己的毕业论文。该模板基于 Typst 系统创建，相较于 Latex@tex1989， 是一种语法更加简易的排版软件，可以用于制作高质量的科技论文和出版物。该项目目前已经包括论文的封面、摘要、正文、参考文献等，用户可以根据自己的需要进行修改和定制。
 
 == 引用文献
 
 这里参考了开源社区 Latex 模板中的参考文献@tex1989 @nikiforov2014 @algebra2000 @LuMan2016:Small-Spectral-Radius @HuQiShao2013:Cored-Hypergraphs @LinZhou2016:Distance-Spectral @KangNikiforov2014:Extremal-Problems @Qi2014:H-Plus-Eigenvalues @Nikiforov2017:Symmetric-Spectrum @BuFanZhou2016:Z-eigenvalues @impagliazzo2001complexity @impagliazzo2001problems @elffers2014scheduling @chrobak2017greedy @paturi1997satisfiability @book1980michael @papadimitriou1998combinatorial，可以点击序号跳转文末查看引用格式。
+
+#pagebreak()
 
 = 图表样例
 
@@ -76,6 +80,7 @@ typst 是最新最热的标记文本语言，定位与 LaTeX 类似，具有极�
 
 表格跟图片差不多，但是表格的输入要复杂一点，建议去 typst 官网学习一下，自由度特别高，定制化很强。
 
+#v(10em)
 看看@tbl1，没有字段的一律是单元格里的内容（每一个被[]）包起来的内容，在 align 为水平时横向排列，排完换行。
 
 #figure(
@@ -99,7 +104,7 @@ typst 是最新最热的标记文本语言，定位与 LaTeX 类似，具有极�
   caption: "芝士样表"
 ) <tbl1>
 
-
+#pagebreak()
 = 公式样例
 
 公式用两个\$包裹，但是语法跟 LaTeX 并不一样，如果有大量公式需求那先建议看官网教程，不过typst还比较早期，不排除以后会加入兼容语法的可能。
@@ -122,6 +127,7 @@ $
     F_1(x) + F_2(x) + ... + F_n(x) = sum_(i=1)^(n) F_i(x)
 $ <eq-2>
 
+#pagebreak()
 
 = 列表样例
 
@@ -147,6 +153,7 @@ $ <eq-2>
 ]
 
 
+#pagebreak()
 = 这是一章占位的
 
 == 占位的二级标题 1
