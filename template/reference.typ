@@ -8,10 +8,10 @@
   // 展示参考文献
 
 #if bibliography_file != none {
-  show bibliography: set text(10pt)
+  show bibliography: set text(10.5pt)
   show heading : it => {
     set align(center)
-    set text(font:heiti, size: font_size.xiaoer)
+    set text(font:heiti, size: font_size.sanhao)
     it
   }
   bibliography(bibliography_file,
