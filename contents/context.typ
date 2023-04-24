@@ -54,7 +54,7 @@ typst 是最新最热的标记文本语言，定位与 LaTeX 类似，具有极�
 如@fig-acm 所示是一个图片样例。
 
 #figure(
-  image("../images/avatar.jpeg", width: 50%),
+  image("../template/images/zjgsu_logo.png", width: 50%),
   caption: [
     "hhhhh"
   ],
