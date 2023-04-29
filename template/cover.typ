@@ -117,7 +117,7 @@
     info_value(college_advisor),
     info_key("企业导师"),
     info_value(company_advisor),
-    info_key("起讫日期"),   
-    info_value(start_and_end_date)
+    // info_key("起讫日期"),   
+    // info_value(start_and_end_date)
   )
 ]

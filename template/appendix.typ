@@ -12,7 +12,7 @@
 }
 
 // 设置段落格式
-#set text(font: songti, size: font_size.wuhao)
+#set text(font: songti, size: font_size.xiaosi)
 #set par(justify: false, leading: 1.5em, first-line-indent: 2em)
 #show par: it => {
   it 

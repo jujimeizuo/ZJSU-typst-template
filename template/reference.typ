@@ -8,13 +8,17 @@
   // 展示参考文献
 
 #if bibliography_file != none {
+  v(12pt)
+
   show bibliography: set text(10.5pt)
   show heading : it => {
     set align(center)
     set text(font:heiti, size: font_size.sanhao)
     it
+    v(12pt)
   }
   bibliography(bibliography_file,
       title: [参考文献],
       style: "ieee")
+  v(12pt)
 }
