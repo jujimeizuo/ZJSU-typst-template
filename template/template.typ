@@ -15,7 +15,7 @@
               #set align(center)
               #set text(size: 10pt, baseline: -3pt)
               #counter(page).display(
-              "- 1 -")
+              "1")
             ]
   )
 
@@ -25,15 +25,8 @@
   set page(
     header: {
       set text(font: songti, 10pt, baseline: 8pt, spacing: 3pt)
-      grid(
-        columns: (1fr, 1fr),
-        align(left + bottom)[
-          #image("images/zjgsu_page_logo.png", width: 50%)
-        ],
-        align(right)[
-          毕业论文：正文
-        ]
-      )
+        [毕业论文（设计）：正文\
+        毕业论文（设计）题目：C++高性能高并发服务器框架]
       line(length: 100%, stroke: 0.1pt)
     }
   )

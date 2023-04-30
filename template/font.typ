@@ -6,6 +6,7 @@
 
 // 字号设置
 #let font_size = (
+    xiaochu: 36pt,
     yihao: 26pt,
     xiaoyi: 24pt,
     erhao: 22pt,

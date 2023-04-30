@@ -121,3 +121,27 @@
     // info_value(start_and_end_date)
   )
 ]
+
+#pagebreak()
+
+#counter(page).update(0)
+
+#align(center+horizon)[
+  #table(
+      columns: (auto),
+      rows: (auto, auto ,auto),
+      stroke: none,
+      gutter: 9pt,
+
+      text(
+        font: songti,
+        size: font_size.xiaochu,
+      )[毕业论文（设计）正文],
+      text(
+        font: songti,
+        size: font_size.sanhao,
+      )[题目:#zh_title]
+    )
+
+]
+
